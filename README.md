@@ -6,6 +6,10 @@ This is an app created using version 17 of react, it uses the public api of rick
 
 To keep in mind, is that this app uses context to handle global states.
 
+**Demo**
+
+https://rickandmortyappreact.netlify.app/
+
 **Resources**
 
 https://rickandmortyapi.com/
