@@ -1,3 +1,34 @@
+# Rick and Morty React App
+
+It is a search engine, in which you can put the name of any of the characters from the animated series Rick and Morty, and it will return an arrangement with all of them, when you click to see the details, a modal opens with the information of that character.
+
+This is an app created using version 17 of react, it uses the public api of rick and morty, through a graphql connection, to do the queries it uses the apollo client in its version 3.4.10, emotion for the styled components and for the modal material-ui.
+
+To keep in mind, is that this app uses context to handle global states.
+
+**Resources**
+
+https://rickandmortyapi.com/
+
+https://es.reactjs.org/docs/context.html
+
+https://www.apollographql.com/
+
+https://emotion.sh/docs/styled
+
+https://mui.com/components/modal/
+
+
+# Screenshots
+  
+![image](https://user-images.githubusercontent.com/44273075/134046398-7962d83a-cdf8-446a-9a59-973399514a17.png)
+ 
+![image](https://user-images.githubusercontent.com/44273075/134046522-60262e2e-7c7e-463f-9df8-1296f2640716.png)
+
+# Components
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
