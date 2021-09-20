@@ -1,5 +1,6 @@
 import React,{useContext, useState} from 'react';
 import styled from '@emotion/styled';
+import PropTypes from "prop-types";
 import Modal from '@material-ui/core/Modal';
 import { makeStyles } from '@material-ui/core/styles';
 import { ModalContext } from '../context/ModalContext';
@@ -230,7 +231,7 @@ const CharCard = ({char}) => {
             onClose={ ()=> {
                 handleClose();
             } }
-            style={{ 'backdrop-filter': 'blur(12px)'}}
+            style={{ backdropFilter: 'blur(12px)'}}
           >   
             { loadingSingleCharacter 
               ? <Loading /> 
@@ -306,5 +307,9 @@ const CharCard = ({char}) => {
 
      );
 }
- 
+
+CharCard.propTypes = {
+  char: PropTypes.object.isRequired
+}
+
 export default CharCard;
