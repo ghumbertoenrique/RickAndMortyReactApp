@@ -206,7 +206,7 @@ const CharCard = ({char}) => {
 
     return (
         <div
-        className="col-md-3 p-4 border-rounded"
+        className="col-lg-3 col-md-6 p-4 border-rounded"
         >
           <Card 
           className="card"

@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 import { CharactersContext } from '../context/CharatersContext';
 
 const Input = styled.input`
-  background-color:rgba(0,0,0,0);
+  background-color:rgba(0,0,0,0)!important;
   border: 2px solid #fff;
   border-radius: 8px;
   color: #fff;
@@ -14,7 +14,9 @@ const Input = styled.input`
     border-color: #fff!important;
     box-shadow: none;
   }
-
+  &:active{
+    background-color:rgba(0,0,0,0);
+  }
 `
 
 const Button = styled.button`

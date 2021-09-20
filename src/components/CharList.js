@@ -22,6 +22,12 @@ const PaginationNumber = styled.button`
       font-weight: 700;
       font-size: 25px;
     }
+    @media (max-width: 768px){
+      display: none;
+      &.active{
+        display: block;
+      }
+    }
 
 `;
 
